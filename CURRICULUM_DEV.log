@@ -6,3 +6,4 @@ EduCore Ecosystem Development Log
 [2025-10-03 13:24:00] Feature: Implement search across all chapters
 [2025-10-03 19:39:00] Docs: Update curriculum structure in README
 [2025-10-03 20:36:00] UI: Enhance accessibility for visual demos
+[2025-10-03 21:14:00] Bugfix: Fix edge case in exercise validation logic
