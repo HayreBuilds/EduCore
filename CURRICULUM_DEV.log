@@ -19,3 +19,4 @@ EduCore Ecosystem Development Log
 [2025-10-14 10:44:00] UI: Implement modern dashboard for students
 [2025-10-14 18:54:00] Feature: Implement search across all chapters
 [2025-10-15 09:15:00] Update: Refresh dependencies to latest stable versions
+[2025-10-15 13:46:00] Refactor: Centralize theme configuration
