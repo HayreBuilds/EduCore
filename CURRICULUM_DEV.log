@@ -45,3 +45,4 @@ EduCore Ecosystem Development Log
 [2025-11-07 11:37:00] UI: Enhance accessibility for visual demos
 [2025-11-09 21:31:00] Feature: Add progress visualization charts
 [2025-11-10 11:15:00] Cleanup: Remove legacy assessment components
+[2025-11-10 19:08:00] Bugfix: Fix edge case in exercise validation logic
