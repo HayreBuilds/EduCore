@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# 🌐 EduCore Ecosystem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Web Development](https://img.shields.io/badge/Focus-Web_Development-blue?style=for-the-badge)](https://github.com/HayreBuilds/EduCore)
+[![Interactive](https://img.shields.io/badge/Feature-Interactive_Learning-orange?style=for-the-badge)](https://github.com/HayreBuilds/EduCore)
+[![Next.js](https://img.shields.io/badge/Built_With-Next.js_15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 
-Currently, two official plugins are available:
+**EduCore** is a scalable, enterprise-grade web learning ecosystem designed to bridge the gap between theory and practice. It features a chapter-based curriculum, interactive code editors, and real-time progress tracking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎓 Learning Experience
 
-## Expanding the ESLint configuration
+- **📖 Chapter-Based Curriculum**: Structured learning paths covering HTML5, CSS3, Modern JavaScript, and Advanced React.
+- **💻 Interactive Code Editor**: Live coding environment within the browser for instant feedback on exercises.
+- **📊 Progress Visualization**: Real-time analytics and charts tracking your journey through the curriculum.
+- **🧩 Assessment Engine**: Automated quizzes and code validation to ensure mastery of each topic.
+- **📱 Universal Accessibility**: Fully responsive design optimized for seamless learning across all devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Technical Architecture
 
-- Configure the top-level `parserOptions` property like this:
+- **Frontend**: [Next.js 15](https://nextjs.org/) (App Router), [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Shadcn/UI](https://ui.shadcn.com/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand) for low-latency progress sync
+- **Interactivity**: [Monaco Editor](https://microsoft.github.io/monaco-editor/) / [CodeMirror](https://codemirror.net/) integration
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) for fluid transitions
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Deployment & Setup
+
+```bash
+# Clone the ecosystem
+git clone https://github.com/HayreBuilds/EduCore.git
+
+# Enter the workspace
+cd EduCore
+
+# Install dependencies
+npm install
+
+# Start the learning platform
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📄 License
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Licensed under the MIT License. See `LICENSE` for details.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+Empowering developers worldwide by [Hayredin Mohammed](https://github.com/HayreBuilds)
